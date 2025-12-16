@@ -1,0 +1,9 @@
+displayName: Token Injector Plugin
+type: middleware
+
+import: github.com/your-username/traefik-token-injector
+
+summary: Automatically injects authentication tokens into requests by fetching credentials from a GraphQL API
+
+testData:
+  ServiceId: "693ae3a02956967b201ce9b8"

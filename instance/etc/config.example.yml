@@ -1,0 +1,22 @@
+# GraphQL API Configuration
+# URL of the GraphQL API endpoint that provides instance data
+graphql_api_url: "https://api.example.com/graphql"
+
+# Authentication type for the GraphQL API endpoint
+# Options: "none", "basic", "apitoken"
+graphql_auth_type: "none"
+
+# Basic Authentication (only required if graphql_auth_type is "basic")
+# graphql_username: "your-username"
+# graphql_password: "your-password"
+
+# API Token Authentication (only required if graphql_auth_type is "apitoken")
+# graphql_api_token: "your-api-token-here"
+# graphql_token_header: "Authorization"  # Header name for the token (default: "Authorization")
+
+# HTTP Client Settings
+timeout: "10s"  # HTTP client timeout
+
+# Token Caching Settings
+cache_enabled: true  # Enable/disable token caching
+token_refresh_buffer: 10  # Seconds before expiration to refresh token (default: 10)
